@@ -1,0 +1,851 @@
+@media screen and (min-width:750px) and (max-width:1199px) {
+    * {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        box-sizing: border-box;
+    }
+    body {
+        margin: 0px 0px 0px 0px;
+        background-color: rgb(255, 255, 255);
+    }
+    header {
+        display: inline-block;
+        margin: 0px 0px 0px 0px;
+        width: 100%;
+    }
+    #divhead {
+        display: inline-block;
+        width: 100%;
+        height: 40px;
+        background-color: royalblue;
+        padding: 10px 5px 5px 5px;
+        
+    }
+    #table1{
+        display: inline-block;
+        margin-left: 5%;
+    }
+    #td1{
+        padding-left: 10px;
+    }
+    #table2{
+        position: absolute;
+        display: inline-block;
+        right: 2%;
+    }
+    #img1 {
+        margin: 0% 0% 1% 4%;
+        width: 15px;
+        height: auto;
+    }
+    #divbutton {
+        position: absolute;
+        display: inline-block;
+        margin: 0% 2% 5% 75%;
+        width: auto;
+        height: auto;
+    }
+    #para1 {
+        position: absolute;
+        display: inline-block;
+        color: rgb(255, 255, 255);
+        margin: 0% 0% 0% 13%;
+        font-size: 12px;
+        max-width: 40%;
+        text-align: center;
+    
+    }
+    #button2 {
+        position: relative;
+        height: 25px;
+        max-width: 50px;
+        min-width: 50px;
+    }
+    #menu-button{
+        display: none;
+    }
+    #text1 {
+        font-size: 60%;
+        text-decoration: none;
+        color: seagreen;
+    }
+    #text2 {
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-size: 80%;
+    }
+    #text3 {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-size: 80%;
+        
+    }
+    #div2 {
+        position: fixed;
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        margin: 0px 0px 0px 0px;
+        height: 70px;
+        z-index: 1;
+    }
+    #img3 {
+        position: absolute;
+        margin: 0.5% 0% 0% 10%;
+        width: 14%;
+        min-width: 150px;
+        height: auto;
+    }
+    #menu{
+        display: none;
+    }
+    #button1 {
+        
+        position: relative;
+        border: 2px solid royalblue;
+        background-color: royalblue;
+        color: rgb(255, 255, 255) ;
+        border-radius: 50px;
+        width: 45px;
+        height: 30px;
+        max-width: 90px;
+        min-width: 30px;
+        padding: 3px;
+        cursor: pointer;
+        font-size: 80%;
+        text-align: center;
+    }
+    #ul1{
+        position: absolute;
+        left: 25%;
+        list-style: none;
+        display: inline-flex;
+        margin-left: 0%;
+        
+    }
+    #li1-sel1{
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 60px;
+        width: auto;
+        height: 32px;
+        max-width: 80px;
+        min-width: 60px;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 80%;
+        margin: 0px 0px 0px 5px;
+        text-align: center;
+        
+        
+    }
+
+    #li1-sel2{
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 60px;
+        width: auto;
+        height: 32px;
+        max-width: 95px;
+        min-width: 60px;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 80%;
+        margin: 0px 0px 0px 5px;
+        text-align: center;
+        
+        
+    }
+    #li1-sel3{
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 60px;
+        width: auto;
+        height: 32px;
+        max-width: 90px;
+        min-width: 60px;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 80%;
+        margin: 0px 0px 0px 5px;
+        text-align: center;
+        
+        
+    }
+    #li1-sel4{
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 60px;
+        width: auto;
+        height: 32px;
+        max-width: 70px;
+        min-width: 60px;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 80%;
+        margin: 0px 0px 0px 5px;
+        text-align: center;
+        
+        
+    }
+    #li1-sel5{
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 60px;
+        width: auto;
+        height: 32px;
+        max-width: 70px;
+        min-width: 60px;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 80%;
+        margin: 0px 0px 0px 5px;
+        text-align: center;
+        
+        
+    }
+    #li1-sel6{
+        border: 2px solid rgb(255, 255, 255);
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        border-radius: 60px;
+        width: auto;
+        height: 32px;
+        max-width: 75px;
+        min-width: 60px;
+        padding: 5px;
+        cursor: pointer;
+        font-size: 80%;
+        margin: 0px 0px 0px 5px;
+        text-align: center;
+        
+        
+    }
+    #li2{
+
+width: 145px;
+height: 40px;
+background-color: white;
+text-align: left;
+padding-left: 10px;
+padding-top: 10px;
+
+
+    }
+    #li2-sel1{
+
+        width: 145px;
+        height: 40px;
+        background-color: white;
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 10px;
+        
+        
+            }
+            #li2-sel2{
+
+                width: 145px;
+                height: 40px;
+                background-color: white;
+                text-align: left;
+                padding-left: 10px;
+                padding-top: 10px;
+                
+                
+                    }
+                    #li2-sel3{
+
+                        width: 145px;
+                        height: 40px;
+                        background-color: white;
+                        text-align: left;
+                        padding-left: 10px;
+                        padding-top: 10px;
+                        
+                        
+                            }
+                            #li2-sel4{
+
+                                width: 145px;
+                                height: 40px;
+                                background-color: white;
+                                text-align: left;
+                                padding-left: 10px;
+                                padding-top: 10px;
+                                
+                                
+                                    }
+    #li3{
+
+        width: 145px;
+        height: 40px;
+        background-color: rgb(255, 255, 255);
+        text-align: left;
+        padding-left: 10px;
+        padding-top: 10px;
+        
+        
+            }
+    
+    #ul2{
+        list-style: none;
+        margin-left: 0px;
+        padding: 0px;
+        margin-top: 15%;
+        display: none;
+
+    }
+    #ul3{
+        list-style: none;
+        margin-left: 0px;
+        padding: 0px;
+        margin-top: 15%;
+        display: none;
+
+    }
+    #ul4{
+        list-style: none;
+        margin-left: 0px;
+        padding: 0px;
+        margin-top: 15%;
+        display: none;
+
+    }
+    #ul5{
+        list-style: none;
+        margin-left: 0px;
+        padding: 0px;
+        margin-top: 15%;
+        display: none;
+
+    }
+
+#ul6{
+    list-style: none;
+    margin-left: 0px;
+    padding: 0px;
+    margin-top: 15%;
+    display: none;
+
+}
+#ul7{
+    list-style: none;
+    margin-left: 0px;
+    padding: 0px;
+    top: 0%;
+    display: none;
+    margin-left: 100%;
+   
+   
+
+}
+#ul8{
+    list-style: none;
+    margin-left: 0px;
+    padding: 0px;
+    top: 0%;
+    display: none;
+    margin-left: 100%;
+   
+   
+
+}
+#ul9{
+    list-style: none;
+    margin-left: 0px;
+    padding: 0px;
+    top: 0%;
+    display: none;
+    margin-left: 100%;
+   
+   
+
+}
+#ul10{
+    list-style: none;
+    margin-left: 0px;
+    padding: 0px;
+    top: 0%;
+    display: none;
+    margin-left: 100%;
+   
+   
+
+}
+
+   
+    #text4{
+       position: relative;
+       margin-left: 0px;
+       padding: 0px;
+        font-size: 10px;
+        text-decoration: none;
+        
+        color: black;
+        
+    }
+    #text5{
+        position: relative;
+        margin-left: 0px;
+        padding: 0px;
+         font-size: 10px;
+         text-decoration: none;
+         
+         color: black;
+         
+     }
+
+    #div2 ul li:hover{ 
+        background-color: royalblue;}
+       
+        #div2 #ul1 #li1-sel1:hover #text3{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 0px ;
+        }
+        #div2 #ul1 #li1-sel2:hover #text3{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 0px ;
+        }
+        #div2 #ul1 #li1-sel3:hover #text3{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 0px ;
+        }
+        #div2 #ul1 #li1-sel4:hover #text3{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 0px ;
+
+        }
+        #div2 #ul1 #li1-sel5:hover #text3{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 0px ;
+        }
+        #div2 #ul1 #li1-sel6:hover #text3{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 0px ;
+        }
+        #div2 #ul2 #li2:hover #text4{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 3px ;
+        }
+        #div2 #ul3 #li2-sel1:hover #text4{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 3px ;
+        }
+        #div2 #ul3 #li2-sel2:hover #text4{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 3px ;
+        }
+        #div2 #ul3 #li2-sel3:hover #text4{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 3px ;
+        }
+        #div2 #ul3 #li2-sel4:hover #text4{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 3px ;
+        }
+        #div2 #ul3 #li2:hover #text4{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 3px ;
+        }
+        #div2 #ul4 #li2:hover #text4{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 3px ;
+        }
+        #div2 #ul5 #li2:hover #text4{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 3px ;
+        }
+        #div2 #ul6 #li2:hover #text4{
+            color: rgb(255, 255, 255);
+            font-size: 10px;
+            padding-left: 3px ;
+        }
+        #div2 #ul3 #li3:hover #text5{
+            color: white;
+        }
+
+        #div2 #ul1 #li1-sel1:hover #ul2{
+            display: block;
+        }
+        #div2 #ul1 #li1-sel2:hover #ul3{
+            display: block;
+        }
+        #div2 #ul1 #li1-sel3:hover #ul5{
+            display: block;
+        }
+        #div2 #ul1 #li1-sel6:hover #ul6{
+            display: block;
+        }
+        #div2 #ul1 #ul3 #li2-sel1:hover #ul7{
+            display: block;
+        }
+        #div2 #ul1 #ul3 #li2-sel2:hover #ul8{
+            display: block;
+        }
+        #div2 #ul1 #ul3 #li2-sel3:hover #ul9{
+            display: block;
+        }
+        #div2 #ul1 #ul3 #li2-sel4:hover #ul10{
+            display: block;
+        }
+    
+    .down {
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+    }
+    .right {
+        transform: rotate(-45deg);
+        -webkit-transform: rotate(-45deg);
+    }
+    i {
+        border: solid black;
+        font-weight: normal;
+        border-width: 0 1px 1px 0;
+        display: inline-block;
+        padding: 2px;
+    }
+    #img4 {
+        margin-top: 75px;
+        width: 100%;
+    }
+    #slide {
+        width: 80%;
+        height: 40px;
+        background-color: royalblue;
+        margin: 0 auto;
+        padding-top: 0px;
+    }
+    
+    #slidetext {
+        color: white;
+        text-align: center;
+    }
+    #div5 {
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 5%;
+    }
+    h1:before {
+        content: 'INTRO';
+        color: royalblue;
+    }
+    h1:after {
+        content: 'DUCTION';
+        color: rgb(43, 146, 34);
+    }
+    #h1 {
+        text-align: center;
+    }
+    #intro {
+       
+        align-items: center;
+        
+    }
+    #p_intro {
+        margin: 3% 0px 0px 0px;
+        font-weight: lighter;
+        font-style: italic;
+        text-align: justify;
+        color: rgb(88, 100, 100);
+        font-size: 12px;
+    }
+    #div6 {
+        position: relative;
+        padding: 5%;
+        width: 100%;
+        height: 300px;
+        background-color: royalblue;
+        margin: 100px 0px 0px 0px;
+        z-index: -1;
+    }
+    #table3{
+        margin-left: 5%;
+    }
+
+    #table3 td{
+        width: 20%;
+        
+        align-items: center;
+        text-align: center;
+        vertical-align: top;
+    }
+
+    #div7 {
+        width: 100%;
+        height: 850px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 5px 5px 5px rgb(0, 0, 0);
+        padding-top: 5%;
+    }
+    #logosize {
+      
+        width: 50px;
+        height: 40px;
+       
+    }
+    #h2 {
+        /* position: relative; */
+        font-size: 32px;
+        color: white;
+        margin-top: 0px;
+        
+    }
+    #st {
+        
+        font-size: 90%;
+        color: white;
+       
+    
+    }
+    #en {
+        
+        font-size: 90%;
+        color: rgb(4, 226, 30);
+        
+        
+    }
+   
+    #start {
+       
+        font-size: 150%;
+        color: royalblue;
+        font-weight: bold;
+    }
+    #end {
+      
+        font-size: 150%;
+        color: rgb(43, 146, 34);
+        font-weight: bold;
+        
+    }
+    #intro1 {
+       
+        
+        margin-top: 1%;
+    }
+    #table4{
+        margin-top: 5%;
+        width: 80%;
+    }
+
+    #table4 td{
+        width: 20%;
+        
+        
+  
+        align-items: center;
+        text-align: center;
+        vertical-align: top;
+        box-shadow: 10px 10px 10px gray;
+
+    }
+    
+    #logosize2 {
+       
+        margin-top: 5%;
+    }
+    #block {
+        
+        color: royalblue;
+        font-size: 100%;
+    }
+    #div8 {
+        position: absolute;
+        width: 50%;
+        height: 300px;
+        background-color: rgb(255, 255, 255);
+        margin: 5% 0px 0px 10%;
+        display: inline-block;
+    }
+    #mission {
+        color: royalblue;
+        font-size: 100%;
+    }
+    #table5{
+        width: 80%;
+        height: 200px;
+        
+        
+           }
+    #table5 td{
+        width: 30%;
+        
+        
+    
+        align-items: center;
+        text-align: center;
+        
+        box-shadow: 10px 10px 10px gray;
+    
+    }
+       
+        #logosize3{
+           
+            width: 20%;
+            height: 40px;
+            
+            
+        }
+    
+        #missiontext{
+            position: relative;
+            color:royalblue;
+            display: inline-block;
+            vertical-align: text-bottom;
+            margin-left: 3%;
+            font-size: 60%;
+    
+            
+    
+        }
+
+    #div9{
+
+display: inline-block;
+width: 25%;
+height: 300px;
+background-color: rgb(255, 255, 255);
+position: relative;
+margin: 5% 0px 0px 65%;
+    }
+    #h2announce{
+        color: royalblue;
+        text-decoration: underline;
+        font-size: 100%;
+    }
+#divannounce{
+
+width: 100%;
+height: 200px;
+background-color: rgb(255, 255, 255);
+padding: 5% 5% 5% 0%;
+
+
+}
+#pannounce{
+    text-align: justify;
+    font-size: 80%;
+}
+
+#imagegallery{
+
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5%;
+
+}
+
+
+#table6{
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 10px 10px 10px 10px;
+}
+#table6 td{
+    width: 20%;
+    margin-left: 10px;
+    height: 200px;
+}
+
+
+#imggallery2{
+   
+    width:100%;
+    height: 200px;
+    
+    
+}
+    #imggallery2:hover{
+        
+cursor: pointer;
+
+    }
+
+    #divcontact{
+
+width: 100%;
+height: 350px;
+background-color: rgba(0, 0, 0, 0.877);
+
+
+    }
+    #cont{
+position: absolute;;
+width: 40%;
+height: 250px;
+
+margin: 5% 0px 0px 5%;
+
+    }
+    #contpara{
+        line-height: 5px;
+        color: white;
+        font-size: 60%;
+    }
+    #contlogo{
+        width: 30px;
+        height: 15px;
+        vertical-align: text-top;
+        
+    }
+    #contlogo2{
+        width: 15px;
+        height: 15px;
+        vertical-align: text-top;}
+
+        #conth3{
+            position: absolute;
+            color: white;
+            margin: 5% 0px 0px 40%;
+            text-decoration: underline;
+            font-size: 100%;
+        }
+        #table7{
+            position: absolute;
+            
+            margin-left: 59%;
+            margin-top: 8%;
+            
+        }
+        #td1{
+            padding-left: 10px;
+            
+        }
+        #contwithush3{
+            position: absolute;
+            color: white;
+            margin: 5% 0px 0px 60%;
+            
+            font-size: 100%;}
+
+    footer{
+        width: 100%;
+        height:50px;
+        background-color: royalblue;
+        margin-top: 0%;
+        color: white;
+        padding: 1% 1% 1% 5%;
+        font-size: 80%;
+    }
+}
